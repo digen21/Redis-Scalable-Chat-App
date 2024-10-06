@@ -35,7 +35,7 @@
 }
 
 .main ol {
-  font-family: var(--font-geist-mono);
+  font-family: "Neue Machina";
   padding-left: 0;
   margin: 0;
   font-size: 14px;
@@ -47,9 +47,15 @@
 .main li:not(:last-of-type) {
   margin-bottom: 8px;
 }
+.chat-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+}
 
 .main code {
-  font-family: inherit;
+  font-family: "Neue Machina";
   background: var(--gray-alpha-100);
   padding: 2px 4px;
   border-radius: 4px;
@@ -67,9 +73,12 @@
   height: 48px;
   padding: 0 20px;
   border: none;
-  font-family: var(--font-geist-sans);
+  font-family: "Neue Machina";
   border: 1px solid transparent;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -96,9 +105,12 @@ button.secondary {
   height: 48px;
   padding: 0 20px;
   border: none;
-  font-family: var(--font-geist-sans);
+  font-family: "Neue Machina";
   border: 1px solid transparent;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -112,7 +124,7 @@ button.secondary {
 }
 
 .footer {
-  font-family: var(--font-geist-sans);
+  font-family: "Neue Machina";
   grid-row-start: 3;
   display: flex;
   gap: 24px;
